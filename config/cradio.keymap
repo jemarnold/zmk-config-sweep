@@ -54,9 +54,9 @@
 
         NAV {
             bindings = <
-&kp ESCAPE  &kp LA(LS(TAB))  &kp LA(TAB)  &trans             &trans        &kp TAB      &kp HOME            &kp UP            &kp END             &kp PG_UP
-&kp TAB     &kp LS(LC(TAB))  &kp LC(TAB)  &kp LC(BACKSPACE)  &kp DELETE    &kp LS(TAB)  &kp LEFT            &kp DOWN          &kp RIGHT           &kp PG_DN
-&kp K_UNDO  &kp K_CUT        &kp K_COPY   &kp K_PASTE        &kp K_REDO    &trans       &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)
+&kp ESCAPE  &kp LA(LS(TAB))  &kp LA(TAB)  &trans             &trans        &kp TAB      &kp HOME            &kp UP            &kp END              &kp PG_UP
+&kp TAB     &kp LS(LC(TAB))  &kp LC(TAB)  &kp LC(BACKSPACE)  &kp DELETE    &kp LS(TAB)  &kp LEFT            &kp DOWN          &kp RIGHT            &kp PG_DN
+&kp K_UNDO  &kp K_CUT        &kp K_COPY   &kp K_PASTE        &kp K_REDO    &trans       &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)
                                           &trans             &trans        &trans       &trans
             >;
         };
