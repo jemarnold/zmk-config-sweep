@@ -54,10 +54,10 @@
 
         NAV {
             bindings = <
-&kp ESCAPE  &kp LS(TAB)      &kp TAB      &sk LEFT_ALT       &trans        &kp TAB       &kp HOME            &kp UP            &kp END              &kp PG_UP
-&trans      &kp LS(LC(TAB))  &kp LC(TAB)  &kp LC(BACKSPACE)  &kp DELETE    &kp LS(TAB)   &kp LEFT            &kp DOWN          &kp RIGHT            &kp PG_DN
-&kp K_UNDO  &kp K_CUT        &kp K_COPY   &kp K_PASTE        &kp K_REDO    &sk LEFT_ALT  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)
-                                          &trans             &trans        &trans        &trans
+&kp ESCAPE     &kp LS(TAB)      &kp TAB        &sk LEFT_ALT       &trans           &kp TAB       &kp HOME            &kp UP            &kp END              &kp PG_UP
+&trans         &kp LS(LC(TAB))  &kp LC(TAB)    &kp LC(BACKSPACE)  &kp DELETE       &kp LS(TAB)   &kp LEFT            &kp DOWN          &kp RIGHT            &kp PG_DN
+&kp C_AC_UNDO  &kp C_AC_CUT     &kp C_AC_COPY  &kp C_AC_PASTE     &kp C_AC_REDO    &sk LEFT_ALT  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)
+                                               &trans             &trans           &trans        &trans
             >;
         };
 
