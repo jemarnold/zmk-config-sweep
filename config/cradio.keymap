@@ -54,10 +54,10 @@
 
         NAV {
             bindings = <
-&kp ESCAPE     &kp LS(TAB)      &kp TAB        &sk LEFT_ALT       &trans           &kp TAB       &kp HOME            &kp UP            &kp END              &kp PG_UP
-&trans         &kp LS(LC(TAB))  &kp LC(TAB)    &kp LC(BACKSPACE)  &kp DELETE       &kp LS(TAB)   &kp LEFT            &kp DOWN          &kp RIGHT            &kp PG_DN
-&kp C_AC_UNDO  &kp C_AC_CUT     &kp C_AC_COPY  &kp C_AC_PASTE     &kp C_AC_REDO    &sk LEFT_ALT  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)
-                                               &trans             &trans           &trans        &trans
+&kp ESCAPE  &kp LS(TAB)      &kp TAB      &sk LEFT_ALT       &trans        &kp TAB       &kp HOME            &kp UP            &kp END              &kp PG_UP
+&trans      &kp LS(LC(TAB))  &kp LC(TAB)  &kp LC(BACKSPACE)  &kp DELETE    &kp LS(TAB)   &kp LEFT            &kp DOWN          &kp RIGHT            &kp PG_DN
+&kp LC(Z)   &kp LC(X)        &kp LC(C)    &kp LC(V)          &kp LC(Y)     &sk LEFT_ALT  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(DOWN_ARROW)
+                                          &trans             &trans        &trans        &trans
             >;
         };
 
@@ -81,9 +81,9 @@
 
         shortcuts {
             bindings = <
-&bt BT_CLR   &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1    &kp C_VOL_UP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans
-&trans       &trans  &trans  &bt BT_SEL 2  &bt BT_SEL 3    &kp C_VOL_DN  &trans          &trans            &trans      &trans
-&bootloader  &trans  &trans  &trans        &trans          &kp C_MUTE    &trans          &trans            &trans      &trans
+&bt BT_CLR   &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1    &kp C_VOL_UP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_BRIGHTNESS_INC
+&trans       &trans  &trans  &bt BT_SEL 2  &bt BT_SEL 3    &kp C_VOL_DN  &trans          &trans            &trans      &kp C_BRIGHTNESS_DEC
+&bootloader  &trans  &trans  &trans        &trans          &kp C_MUTE    &trans          &trans            &trans      &kp C_BRIGHTNESS_AUTO
                              &trans        &trans          &trans        &trans
             >;
         };
