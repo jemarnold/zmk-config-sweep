@@ -36,7 +36,7 @@
 
         base {
             bindings = <
-&lt 5 Q     &kp W       &kp E         &kp R        &kp T              &kp Y        &kp U        &kp I         &kp O       &kp P
+&kp Q       &kp W       &kp E         &kp R        &kp T              &kp Y        &kp U        &kp I         &kp O       &kp P
 &ht LWIN A  &ht LALT S  &ht LSHIFT D  &ht LCTRL F  &kp G              &kp H        &ht RCTRL J  &ht RSHIFT K  &ht RALT L  &ht K_APPLICATION SQT
 &kp Z       &kp X       &kp C         &kp V        &kp B              &kp N        &kp M        &kp COMMA     &kp DOT     &kp FSLH
                                       &kp LSHIFT   &lt 1 BACKSPACE    &lt 2 SPACE  &lt 3 ENTER
@@ -45,10 +45,10 @@
 
         right_num {
             bindings = <
-&kp ESC     &trans     &trans      &trans       &trans        &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MINUS
-&kp TAB     &trans     &trans      &trans       &kp DELETE    &kp KP_EQUAL  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY
-&kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO    &kp KP_DOT    &kp N1  &kp N2  &kp N3  &kp KP_DIVIDE
-                                   &trans       &trans        &trans        &kp N0
+&kp ESC     &kp LA(LS(TAB))  &kp LA(TAB)  &trans             &trans        &kp PLUS   &kp N7  &kp N8  &kp N9  &kp MINUS
+&kp TAB     &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(BACKSPACE)  &kp DELETE    &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp ASTERISK
+&kp K_UNDO  &kp K_CUT        &kp K_COPY   &kp K_PASTE        &kp K_REDO    &kp DOT    &kp N1  &kp N2  &kp N3  &kp SLASH
+                                          &trans             &trans        &trans     &kp N0
             >;
         };
 
